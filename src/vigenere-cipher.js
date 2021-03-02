@@ -10,6 +10,7 @@ encrypt (str, key) {
     let resultend ='';
     let count = 0;
     let strWSpaces = str.toLowerCase().replace(/\s/g, '');
+    key = key.toLowerCase()
 
     if (str && key) {
 
@@ -43,6 +44,7 @@ decrypt (str, key) {
     let resultend ='';
     let count = 0;
     let strWSpaces = str.toLowerCase().replace(/\s/g, '');
+    key = key.toLowerCase()
 
     if (str && key) {
 
